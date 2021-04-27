@@ -8,6 +8,7 @@ body {
     width: 1170px;
     margin: auto;
 }
+
 /* END MAIN RULZ*/
 /* start links */
 a:link {
@@ -41,23 +42,29 @@ a:link {
     overflow: hidden;
 }
 #icon{
-    width: 50px;
+    width: 40px;
     float:left;
-   padding-top: 8px;
+   padding-top: 0px;
 }
 .header .navbar h2 {
     float: left;
     padding-left: 10px;
+    margin: 0%;
+    padding-top: 7px;
 }
 .header .navbar span{
     color:#57A946;
 }
 
 .header .navbar .container  ul {
-    height: auto;
+    height: 100%;
     list-style:none;
     padding-left:10px;
     float: right;
+    padding: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
 .header .navbar .container ul li {
     height: 100%;
@@ -77,15 +84,15 @@ a:link {
 .sub-contect {
     font-size: small;
     position: absolute;
-    top: 60px;
+    top: 41px;
     overflow: hidden;
     background-color: #252F31;
     background: rgba(37, 47,45, 0.7);
+    padding: 0%;
     max-height: 0px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    height: 140px;
+    height: 110px;
     width: 302px;
+    margin: 0%;
 
 }
 .sub-drop ul {
@@ -95,11 +102,9 @@ a:link {
 
 
 .menu-item:hover .sub-contect{
-    max-height: 8000px;
+    max-height: 4000px;
     transition: max-height 1.5s ease-in;
 }
-
-
 
 /* End sub drop */
 /* start about */
