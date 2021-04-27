@@ -7,7 +7,6 @@ body {
 .container {
     width: 1170px;
     margin: auto;
-    background-color: rgb(241, 241, 241);
 }
 /* END MAIN RULZ*/
 /* start links */
@@ -25,7 +24,6 @@ a:link {
   
   a:hover {
     color:#fff;
-    background-color: #245a01;
     text-decoration: none;
   }
   
@@ -71,29 +69,33 @@ a:link {
 .menu-item {
     float: left;
 }
+ .navbar ul li:hover {
+    background-color: #245a01;
+}
 /* End Header */
 /* start sub drop */
 .sub-contect {
     font-size: small;
     position: absolute;
-    top: 45px;
+    top: 60px;
     overflow: hidden;
     background-color: #252F31;
     background: rgba(37, 47,45, 0.7);
     max-height: 0px;
     padding-top: 10px;
     padding-bottom: 5px;
-    height: 100px;
-    width: 300px;
-    
+    height: 140px;
+    width: 302px;
+
 }
 .sub-drop ul {
-    list-style-position: outside;    
+    list-style-position: outside;   
+    float: left; 
 }
 
 
 .menu-item:hover .sub-contect{
-    max-height: 4000px;
+    max-height: 8000px;
     transition: max-height 1.5s ease-in;
 }
 
@@ -121,6 +123,7 @@ a:link {
     margin: auto;
     padding: 20px;
     color: rgb(105, 105, 105);
+    padding-bottom: 50px;
 }
 .partow{
     float: left;
@@ -128,6 +131,7 @@ a:link {
     padding-left: 20px;
     padding-right: 20px;
     color: rgb(105, 105, 105);
+    padding-bottom: 50px;
 }
 .parthre{
     float: right;
@@ -135,6 +139,7 @@ a:link {
     margin: auto;
     padding: 25px;
     color: rgb(105, 105, 105);
+    padding-bottom: 50px;
 }
 #hithr {
     float: right;
@@ -163,12 +168,16 @@ a:link {
     margin: auto;
     width: 100%;
 }
+.landbar a:hover{
+    color: #57A946;
+}
 .landsec
 {
     float :left;
     width: 40%;
     padding: 30px;
 }
+
 .landsec h3{
     color: #57A946;   
     padding: 10px;
@@ -189,6 +198,17 @@ a:link {
 /* start hicis page style*/
 .container .parone span{
     font-size: larger;
+    color:#57A946;
+}
+.container .partow span{
+    font-size: larger;
+    color:#57A946;
+}
+.container .parthre span{
+    color:#57A946;
+    float:left;
+}
+li span{
     color:#57A946;
 }
 .imgone{
@@ -222,6 +242,12 @@ a:link {
     padding-left: 70px;
     color: rgb(105, 105, 105);
 }
+.list4{
+    list-style:square;
+    float: left;
+    padding-left: 70px;
+    color: rgb(105, 105, 105);
+}
 .list3{
     list-style:square;
     width: 540px;
@@ -230,3 +256,42 @@ a:link {
     color: rgb(105, 105, 105);
 }
 /* end hicis page style*/
+/* Start contact us page style*/
+.contac1{
+    padding:30px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 0PX;
+    width: 39.5%;
+    height: 351px;
+    float:left;
+    background-color: #200092;
+    color:#fff;
+}
+.contac2{
+    padding: 10px;
+    margin:5px
+}
+.contac-img{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 0px;
+    width: 59.5%;
+    float:right;
+}
+.contac3 span{
+    color:#57A946;
+}
+.contac3{
+    padding-left: 55px;
+    height: 40PX;
+    padding-bottom: 15px;
+}
+.contac3 :hover{
+    color:#57A946;
+}
+.contac-icon{
+    width: 40px;
+    float:left;
+}
+/* End contact us page style*/
