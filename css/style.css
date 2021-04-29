@@ -300,3 +300,42 @@ li span{
     float:left;
 }
 /* End contact us page style*/
+/* Start News page style*/
+.news1{
+    width: 30%;
+    margin: 1.5%;
+    height: 350px;
+    background-color: rgb(233, 233, 233);
+    float: left;
+}
+.news-img{
+    width: 100%;
+    height: 230px;
+    margin: 0px;
+    padding: 0px;
+}
+.news-title{
+    width: 100%;
+    margin: 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(105, 105, 105);
+}
+.news-more{
+    width: 95%;
+    height: 40px;
+    margin: 0%;
+    padding-top: 0px;
+    border-style: solid;
+    border-color:#57A946;
+    color:#57A946;
+    float:initial;
+    font-size: 30px;
+    float: inline-end;
+    background-color: #57A946;
+}
+.news-more :hover{
+    text-decoration: underline;
+}
+
+/* End News page style*/
