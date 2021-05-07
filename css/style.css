@@ -339,3 +339,139 @@ li span{
 }
 
 /* End News page style*/
+/* Start FAQ page style*/
+.faq{
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding: 0px;
+    width: 59.5%;
+    float:right;
+}
+.q1{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.q1:hover{
+    background-color: rgb(216, 216, 216);
+}
+.answer1{
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q1:focus~ .answer1{
+    display: unset;
+}
+.q2{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer2{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q2:focus~ .answer2{
+    display: unset;
+}
+.q3{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer3{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q3:focus~ .answer3{
+    display: unset;
+}
+.q4{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer4{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q4:focus~ .answer4{
+    display: unset;
+}
+.q5{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer5{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q5:focus~ .answer5{
+    display: unset;
+}
+.q6{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer6{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q6:focus~ .answer6{
+    display: unset;
+}
+.q7{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size:20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.answer7{
+    padding-top: 20px;
+    border-color: black;
+    margin: 20px;
+    display: none;
+}
+.q7:focus~ .answer7{
+    display: unset;
+}
+/* End FAQ page style*/
